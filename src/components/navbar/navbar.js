@@ -8,7 +8,7 @@ import { useLocation } from "react-router-dom";
 const navigation = [
   { name: "Home", href: "/", current: true },
   { name: "Conference", href: "/conference", current: false },
-  { name: "About Gwalior", href: "/about_gwalior", current: false },
+  { name: "About Gwalior", href: "/about_greaternoida", current: false },
   { name: "Guidelines", href: "/guidelines", current: false },
   { name: "Schedule", href: "/schedule", current: false },
   { name: "Important Dates", href: "/important_dates", current: false },

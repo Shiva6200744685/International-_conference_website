@@ -127,7 +127,7 @@ const Footer = () => {
                 Greater Noida, Uttar Pradesh 201306
                 <br />
                 <a className="text-sky-700 underline decoration-sky-500"href="mailto:info@prestigegwl.org">info@prestigegwl.org</a><br/>
-                <a className="text-sky-700 underline decoration-sky-500"href="tel:09827057466">098270 57466</a>
+                <a className="text-sky-700 underline decoration-sky-500"href="tel:09827057466"></a>
 
               </address>
             </div>

@@ -14,7 +14,7 @@ const AboutGwalior = () => {
         }}
       >
         <div className="container m-auto text-center px-6 opacity-100">
-          <h2 className="text-4xl font-bold mb-2 text-white">Gwalior</h2>
+          <h2 className="text-4xl font-bold mb-2 text-white">Greater Noida</h2>
           <h3 className="text-2xl mb-8 text-gray-200">The City Of Music</h3>
           <a href="#about">
             <button className="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider hover:border-transparent hover:text-blue-500 hover:bg-gray-800">
@@ -27,28 +27,10 @@ const AboutGwalior = () => {
       <section id="about">
         <div className="about-wrapper container flex items-center flex-wrap mb-20">
           <div className="about-text w-full md:w-1/2 pr-10">
-            <p className="small">About Gwalior</p>
-            <h2>Legecy History of Gwalior</h2>
+            <p className="small">About Greater Noida</p>
+            <h2>Legecy History of Greater Noida</h2>
             <p>
-              Gwalior occupies a strategic location in the central region of
-              India and its fortress have served as the center of several of
-              historic northern Indian kingdoms. The city offers the traveller a
-              unique style of architecture. The great Rajput clans of the
-              Pratiharas, Kachwahas and Tomars have left ineffaceable marks of
-              their rule in this city of palaces, temples, monuments and
-              majestic fort considered as one of the best in the world. At the
-              heart of Gwalior is Gwalior Fort, built by Raja Man Singh Tomar,
-              of the Tomar dynasty. This formidable structure was reputed to be
-              one of the most invincible forts of India. Also described as the
-              'pearl in the necklace of the castles of Hind ', this fort
-              dominates the city's skyline with its massive and captivating
-              structure. Its dazzling beauty, which is a blend of Hindu and
-              Islamic architecture, has left an everlasting imprint on the minds
-              of the people. Gwalior fort also has the Gurudwara Data Bandi
-              built in the memory of the sixth Sikh Guru Har Gobind. Close to
-              the heart of the city is splendid Jai Vilas Palace, patterned on
-              the palace of Versailles; it combines Tuscan, Italian and
-              Corinthian styles of architecture.
+            Greater Noida is a planned city located in the Gautam Buddha Nagar district of the Indian state of Uttar Pradesh.The city was created as an extension of the area under the UP Industrial Area Development Act, of 1976.Situated 40.2 km (25.0 mi) southeast of the Center of capital city of New Delhi, it takes around 30 minutes to travel between the cities via the Noida-Greater Noida Expressway. The city is administered by the Greater Noida Industrial Development Authority (GNIDA).
             </p>
           </div>
           <div className="w-full md:w-1/2 about-img">
@@ -73,19 +55,7 @@ const AboutGwalior = () => {
             <p className="small">About Gwalior</p>
             <h2>Legecy History of Gwalior</h2>
             <p>
-              Gwalior is a well acknowledged place of art, associated with
-              historic as well as contemporary evidence. The Gwalior is famous
-              for its contribution to classical music and known for Gwalior
-              Gharana. Gwalior is the birth place of classical Music Maestro
-              Miya Tansen. The Gwalior Trade Fair takes place every year in the
-              month of December-January, which is the true representation of
-              art, culture and heritage of different states of India. Tourists
-              visit Gwalior throughout the year. Gwalior has a population of
-              approx. one and a half million. It is surrounded by 5 industrial
-              areas with various national and multinational companies such as
-              SRF, JK Tyres, Godrej, Cadbury, Ranbaxy and Punj Lloyd. Forming a
-              part of the Heritage Tourism belt, Gwalior is a city of tourist
-              attraction.
+            Greater Noida is a planned city located in the Gautam Buddha Nagar district of the Indian state of Uttar Pradesh.The city was created as an extension of the area under the UP Industrial Area Development Act, of 1976.Situated 40.2 km (25.0 mi) southeast of the Center of capital city of New Delhi, it takes around 30 minutes to travel between the cities via the Noida-Greater Noida Expressway. The city is administered by the Greater Noida Industrial Development Authority (GNIDA).
             </p>
           </div>
         </div>
