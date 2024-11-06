@@ -1,2 +1,2 @@
-<h1>Intwenational Conference website
+<h1>International Conference website
 </h1>
