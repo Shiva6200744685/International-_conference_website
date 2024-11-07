@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Navbar from './components/navbar/navbar.js';
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+import Contact from './components/pages/contactpage/contactpage';
+import Pricing from './components/pages/pricing/pricing';
+import ImportantDates from './components/pages/important_dates/important_dates';
+import Schedule from './components/pages/schedule/schedule';
+import Advisory from './components/pages/advisory_member/advisory_member';
+import Conference from './components/pages/conference/conference';
+import Guidelines from './components/pages/guideline/guideline';
+import NotFound from './components/pages/notfound/notfound';
+import AboutGwalior from './components/pages/about_gwalior/about_gwalior';
+import Home from './components/pages/home/home';
+import Logs from './components/pages/logs/logs';
+import Message from './components/pages/messages/messages';
+import Footer from './components/footer/footer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Router>
+     <Navbar />
+     <Routes>
+       <Route path="/" exact element={<Home />} />
+       <Route path="/conference" element={<Conference />} />
+        {/* <Route path="/about_gwalior" element={<AboutGwalior />} /> */}
+        <Route path="/guidelines" element={<Guidelines />} />
+        <Route path="/schedule" element={<Schedule />} />
+        <Route path="/important_dates" element={<ImportantDates />} />
+        <Route path="/advisory_memebers" element={<Advisory />} />
+        <Route path="/registration" element={<Pricing />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/logs" element={<Logs />} />
+        <Route path="/messages" element={<Message />} />
+        <Route path="*" element={<NotFound />} />
+     </Routes>
+     <Footer />
+    </Router>
+     </>
   );
 }
 

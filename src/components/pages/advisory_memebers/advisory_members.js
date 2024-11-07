@@ -5,8 +5,8 @@ const memebers = [
   {
     image:
       "https://thumbs.dreamstime.com/b/canadian-man-smiling-mountains-173719126.jpg",
-    title: "Dr. Davish Jain",
-    position: "Chairman-Governing Body, Prestige Education Society",
+    title: "Dr abc Singh",
+    position: "Chairman-Governing Body, XYZ",
   },
   {
     image:
